@@ -60,7 +60,7 @@ viewpager.setShowTime(2000); // 设置滑动间隔时间。
  viewpager.stop()
 ```
 
-
+## 内存泄露
 **由于LooperViewPager中post了一个Runnable，它持有当前Activity的实例，所以在LooperViewPager所在的当前Activity销毁时可能会发生内存泄漏，我们在View销毁的时候移除Runnable**
 PS：LooperViewPager中已经处理，无需再次处理
 
