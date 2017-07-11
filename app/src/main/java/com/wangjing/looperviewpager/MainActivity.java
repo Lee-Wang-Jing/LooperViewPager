@@ -31,5 +31,8 @@ public class MainActivity extends AppCompatActivity {
 
         adapter = new ViewPagerAdapter(guideImages);
         viewpager.setAdapter(adapter);
+        viewpager.setShowTime(1000);
+        viewpager.setDirection(LoopViewPager.Direction.RIGHT);
+        viewpager.start();
     }
 }
