@@ -4,13 +4,7 @@
 有问题或者某种需求欢迎加群或者提issues，Thanks
 ----
 # Features
-1. RecyclerView 上下左右两侧添加侧滑菜单。
-2. 菜单可以自适应Item不同高度。
-3. 菜单横向排布、菜单竖向排布
-4. RecyclerView长按拖拽Item，触摸拖拽Item。
-5. RecyclerView侧滑删除item，触摸拖拽Item。
-6. 指定RecyclerView的某一个Item不能滑动删除或长按拖拽。
-7. 可以和ViewPager、DrawerLayout、CardView嵌套使用。
+1. 添加ViewPager切换动画
 
 # Dependencies
 * Gradle
